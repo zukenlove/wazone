@@ -50,11 +50,11 @@ section.box-2 {
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 38px;
+  font-weight: 700;
   color: #b61212;
   font-family: "Savate", sans-serif;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 .box-2 ul {
@@ -248,8 +248,11 @@ section.box-2 {
   border-radius: 50%;
  
 }
-.one p{
+.para{
   text-align:justify;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: regular;
 }
 
 /*Section Four */
@@ -630,5 +633,16 @@ section.box-2 {
         margin: 40px;
         flex-wrap: wrap;
         gap:5px;
+    }
+     .testimony-card img{
+      margin: 50px;
+      border-radius: 50%;
+      border: 5px solid white;
+      outline: none;
+      box-shadow: 1px 5px 10px 5px  red,
+      -1em 0 0.1em rgb(57, 63, 239);
+    }
+    .form-control{
+      width: 100%;
     }
     }
