@@ -47,6 +47,7 @@ section.box-2 {
   justify-content: center;
   align-items: center;
   height: 70%;
+  margin: 0px 15px;
   flex-wrap: wrap;
   /* background-color: rgb(139 20 20 / 85%); */
 }
