@@ -383,6 +383,11 @@ section.box-2 {
         -webkit-box-shadow: -28px 1px 58px -5px rgba(195,136,136,0.67);
         -moz-box-shadow: -28px 1px 58px -5px rgba(195,136,136,0.67);
     }
+     .testimony-card h1{
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
 
     .testimony-card img{
       margin: 50px;
@@ -390,7 +395,7 @@ section.box-2 {
       border: 5px solid white;
       outline: none;
       box-shadow:
-      3px 3px 5px 10px  red,
+      3px 3px 2px 2px  red,
       -1em 0 0.4em rgb(57, 63, 239);
     }
     .testimony-card p , .testimony-card h1{
@@ -574,18 +579,17 @@ section.box-2 {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    /* background-color: #0056b3; */
   }
   .second .box{
-  margin: 0;
-  height: 200px;
-  width: 100%;
-  z-index: 10;
-  position: relative;
-  border: 5px solid white;
-  border-radius: 5px;
-  object-fit: cover;
-  box-shadow: 2px 4px 8px rgba(8, 8, 8, 0.904);
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    border: 5px solid white;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 2px 4px 8px rgba(8, 8, 8, 0.904);
   }
 
   .flex-three {
