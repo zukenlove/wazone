@@ -395,7 +395,7 @@ section.box-2 {
       border: 5px solid white;
       outline: none;
       box-shadow:
-      3px 3px 2px 2px  red,
+      1px 1px 1px 1px  red,
       -1em 0 0.4em rgb(57, 63, 239);
     }
     .testimony-card p , .testimony-card h1{
