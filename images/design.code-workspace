@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "design",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "images"
+	}
+}
