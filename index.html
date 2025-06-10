@@ -181,7 +181,8 @@ settings
   </div>
 </div>
   <!-- Footer-->
-    <div class="footer">
+   <div>
+     <div class="footer">
           <div class="footer-column">
           <h3>About</h3>
           <p>We are a creative design agency based in the heart of Florida specializing in innovative branding,
@@ -213,8 +214,14 @@ settings
           <p>Privacy Policy</p>
           <p>FAQ</p>
         </div>
-    </div>
+       </div>
+        <div class="copy" style="text-align: center; color: white;">
+           <p>&copy; <span id="year"></span> WaZone Inc. All rights reserved.</p>
+       </div>
    
+   </div>
+   
+ 
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -237,6 +244,9 @@ settings
     }
   });
 </script>
+ <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
