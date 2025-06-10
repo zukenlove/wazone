@@ -629,14 +629,17 @@ section.box-2 {
         flex-wrap: wrap;
         gap:5px;
     }
-     .testimony-card img{
-      margin: 20px 30px;
+    
+    .testimony-card img{
+      margin: 50px;
       border-radius: 50%;
       border: 5px solid white;
       outline: none;
-      box-shadow: 1px 5px 10px 5px  red,
+      box-shadow:
+      1px 1px 1px 1px  red,
       -1em 0 0.1em rgb(57, 63, 239);
     }
+
     .form-control{
       width: 100%;
     }
