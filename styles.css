@@ -156,37 +156,6 @@ section.box-2 {
   object-fit: cover;
   z-index: 10;
 }
-/* .second .box {
-  flex: 1;
-  min-height: 300px;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-
-
-  height: 100%;
-  width: 100%;
-  margin: -40px auto 0;
-  z-index: 10;
-  position: relative;
-  border: 5px solid white;
-  border-radius: 5px;
-  object-fit: cover;
-  box-shadow: 2px 4px 8px rgba(8, 8, 8, 0.904);
-
-} */
 
 .second .box:hover {
   transform: scale(1.03);
@@ -210,9 +179,6 @@ section.box-2 {
   border-radius: 6px;
 }
 
-
-
-/*dddddddddddddddd*/
  .second {
   display: flex;
   justify-content: space-between;
@@ -406,7 +372,7 @@ section.box-2 {
         flex-wrap: wrap;
     }
    .testimony-card{
-        width: 450px;
+        width: 350px;
         height: auto;
         border-radius: 25px;
         box-shadow: #000000;
