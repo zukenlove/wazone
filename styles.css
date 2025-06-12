@@ -76,30 +76,9 @@ section.box-2 {
   text-transform: uppercase;
 }
 
-.search-form {
-  display: flex;
-  height: 25px;
-}
-
-.search-form input {
-  padding: 8px 12px;
-  border: 1px solid #007bff;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  width: 100px;
-  outline: none;
-}
-
-.search-form button {
-  padding: 0 10px;
-  border: none;
-  background-color: #007bff;
-  color: white;
-  border-radius: 0 20px 20px 0;
-  cursor: pointer;
-  font-weight: 400;
-}
-
+ .search-form {
+        display: none;
+      }
 /* First Section */
 .first {
   position: relative;
@@ -107,7 +86,8 @@ section.box-2 {
   color: white;
   text-align: center;
   z-index: 1;
-  /* min-height: 500px; */
+  height: 300px;
+  padding: 50px 0px;
 }
 
 .first h1 {
@@ -116,6 +96,7 @@ section.box-2 {
   font-style: italic;
   padding: 40px 0px;
   box-sizing: inherit;
+  /*! text-align: center; */
 }
 
 .btn0 {
@@ -467,7 +448,7 @@ section.box-2 {
         gap: 10px;
     }
    .testimony-card{
-        width: 100%;
+        width: 30%;
         height: auto;
         border-radius: 25px;
         overflow: hidden;
@@ -501,6 +482,29 @@ section.box-2 {
       font-weight: 400;
       font-style: italic;
       }
+     .search-form {
+  display: flex;
+ 
+}
+
+.search-form input {
+  padding: 0px 12px;
+  border: 1px solid #007bff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 100px;
+  outline: none;
+}
+
+.search-form button {
+  padding: 0 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-weight: 200;
+}
 }
 
   /*
